@@ -2,7 +2,7 @@
 
 #include "input.h"
 
-static constexpr const Input input =
+constexpr const Input input =
 #if defined(HARD)
     Input::Hard;
 #elif defined(SOFT)
